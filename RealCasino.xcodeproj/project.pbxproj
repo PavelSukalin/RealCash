@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23B80E08C83DF18ECE82DD83 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E083C59C1E2178EAA114F449 /* libPods.a */; };
+		5FCBD1761D521D79000D4A67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCBD1751D521D79000D4A67 /* AppDelegate.swift */; };
+		5FCBD1781D521D79000D4A67 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCBD1771D521D79000D4A67 /* HomeController.swift */; };
+		5FCBD17B1D521D79000D4A67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FCBD1791D521D79000D4A67 /* Main.storyboard */; };
+		5FCBD17E1D521D79000D4A67 /* RealCasino.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5FCBD17C1D521D79000D4A67 /* RealCasino.xcdatamodeld */; };
+		5FCBD1801D521D79000D4A67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FCBD17F1D521D79000D4A67 /* Assets.xcassets */; };
+		5FCBD1831D521D79000D4A67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FCBD1811D521D79000D4A67 /* LaunchScreen.storyboard */; };
+		5FCBD18E1D521D79000D4A67 /* RealCasinoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCBD18D1D521D79000D4A67 /* RealCasinoTests.swift */; };
+		5FCBD1A31D52311E000D4A67 /* SignInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCBD1A21D52311E000D4A67 /* SignInController.swift */; };
+		5FCBD1A61D52320D000D4A67 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCBD1A51D52320D000D4A67 /* Constants.swift */; };
+		5FCBD1A91D5235CC000D4A67 /* SequeToRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCBD1A81D5235CC000D4A67 /* SequeToRight.swift */; };
+		5FCBD1AF1D5237CD000D4A67 /* FacebookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCBD1AE1D5237CD000D4A67 /* FacebookManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FCBD18A1D521D79000D4A67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FCBD16A1D521D79000D4A67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FCBD1711D521D79000D4A67;
+			remoteInfo = RealCasino;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42F6B570EAD05B33114E0758 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		5FCBD1721D521D79000D4A67 /* RealCasino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealCasino.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FCBD1751D521D79000D4A67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5FCBD1771D521D79000D4A67 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		5FCBD17A1D521D79000D4A67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FCBD17D1D521D79000D4A67 /* RealCasino.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RealCasino.xcdatamodel; sourceTree = "<group>"; };
+		5FCBD17F1D521D79000D4A67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FCBD1821D521D79000D4A67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FCBD1841D521D79000D4A67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FCBD1891D521D79000D4A67 /* RealCasinoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealCasinoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FCBD18D1D521D79000D4A67 /* RealCasinoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealCasinoTests.swift; sourceTree = "<group>"; };
+		5FCBD18F1D521D79000D4A67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FCBD1A21D52311E000D4A67 /* SignInController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInController.swift; sourceTree = "<group>"; };
+		5FCBD1A51D52320D000D4A67 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5FCBD1A81D5235CC000D4A67 /* SequeToRight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SequeToRight.swift; sourceTree = "<group>"; };
+		5FCBD1AE1D5237CD000D4A67 /* FacebookManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookManager.swift; sourceTree = "<group>"; };
+		5FCBD1B21D523AC5000D4A67 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		C953F622FFD173AB09043464 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E083C59C1E2178EAA114F449 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FCBD16F1D521D79000D4A67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B80E08C83DF18ECE82DD83 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FCBD1861D521D79000D4A67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FCBD1691D521D79000D4A67 = {
+			isa = PBXGroup;
+			children = (
+				5FCBD1741D521D79000D4A67 /* RealCasino */,
+				5FCBD18C1D521D79000D4A67 /* RealCasinoTests */,
+				5FCBD1731D521D79000D4A67 /* Products */,
+				C13A18A1D745CA9FB2344872 /* Pods */,
+				6FB8A8A5C553C1795601461E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5FCBD1731D521D79000D4A67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FCBD1721D521D79000D4A67 /* RealCasino.app */,
+				5FCBD1891D521D79000D4A67 /* RealCasinoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FCBD1741D521D79000D4A67 /* RealCasino */ = {
+			isa = PBXGroup;
+			children = (
+				5FCBD1751D521D79000D4A67 /* AppDelegate.swift */,
+				5FCBD1791D521D79000D4A67 /* Main.storyboard */,
+				5FCBD1811D521D79000D4A67 /* LaunchScreen.storyboard */,
+				5FCBD19D1D522244000D4A67 /* Core Data */,
+				5FCBD1A41D5231F6000D4A67 /* Constants */,
+				5FCBD1AA1D52375D000D4A67 /* Models */,
+				5FCBD1A01D5230F6000D4A67 /* Controllers */,
+				5FCBD17F1D521D79000D4A67 /* Assets.xcassets */,
+				5FCBD1841D521D79000D4A67 /* Info.plist */,
+			);
+			path = RealCasino;
+			sourceTree = "<group>";
+		};
+		5FCBD18C1D521D79000D4A67 /* RealCasinoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FCBD18D1D521D79000D4A67 /* RealCasinoTests.swift */,
+				5FCBD18F1D521D79000D4A67 /* Info.plist */,
+			);
+			path = RealCasinoTests;
+			sourceTree = "<group>";
+		};
+		5FCBD19D1D522244000D4A67 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				5FCBD17C1D521D79000D4A67 /* RealCasino.xcdatamodeld */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		5FCBD19E1D522255000D4A67 /* Home Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5FCBD1771D521D79000D4A67 /* HomeController.swift */,
+			);
+			name = "Home Controller";
+			sourceTree = "<group>";
+		};
+		5FCBD1A01D5230F6000D4A67 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5FCBD1A71D5235AD000D4A67 /* Seque */,
+				5FCBD1A11D523106000D4A67 /* Sign In Controller */,
+				5FCBD19E1D522255000D4A67 /* Home Controller */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		5FCBD1A11D523106000D4A67 /* Sign In Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5FCBD1A21D52311E000D4A67 /* SignInController.swift */,
+			);
+			name = "Sign In Controller";
+			sourceTree = "<group>";
+		};
+		5FCBD1A41D5231F6000D4A67 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				5FCBD1A51D52320D000D4A67 /* Constants.swift */,
+				5FCBD1B21D523AC5000D4A67 /* Bridging-Header.h */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		5FCBD1A71D5235AD000D4A67 /* Seque */ = {
+			isa = PBXGroup;
+			children = (
+				5FCBD1A81D5235CC000D4A67 /* SequeToRight.swift */,
+			);
+			name = Seque;
+			sourceTree = "<group>";
+		};
+		5FCBD1AA1D52375D000D4A67 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5FCBD1AB1D52376D000D4A67 /* Facebook */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		5FCBD1AB1D52376D000D4A67 /* Facebook */ = {
+			isa = PBXGroup;
+			children = (
+				5FCBD1AE1D5237CD000D4A67 /* FacebookManager.swift */,
+			);
+			name = Facebook;
+			sourceTree = "<group>";
+		};
+		6FB8A8A5C553C1795601461E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E083C59C1E2178EAA114F449 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C13A18A1D745CA9FB2344872 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42F6B570EAD05B33114E0758 /* Pods.debug.xcconfig */,
+				C953F622FFD173AB09043464 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FCBD1711D521D79000D4A67 /* RealCasino */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FCBD1921D521D79000D4A67 /* Build configuration list for PBXNativeTarget "RealCasino" */;
+			buildPhases = (
+				9358BAE9041E217B88A55D5C /* Check Pods Manifest.lock */,
+				5FCBD16E1D521D79000D4A67 /* Sources */,
+				5FCBD16F1D521D79000D4A67 /* Frameworks */,
+				5FCBD1701D521D79000D4A67 /* Resources */,
+				279740A65BB84BF78AE1686F /* Embed Pods Frameworks */,
+				E6B0CAE195D3031A64214DCF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealCasino;
+			productName = RealCasino;
+			productReference = 5FCBD1721D521D79000D4A67 /* RealCasino.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5FCBD1881D521D79000D4A67 /* RealCasinoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FCBD1951D521D79000D4A67 /* Build configuration list for PBXNativeTarget "RealCasinoTests" */;
+			buildPhases = (
+				5FCBD1851D521D79000D4A67 /* Sources */,
+				5FCBD1861D521D79000D4A67 /* Frameworks */,
+				5FCBD1871D521D79000D4A67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FCBD18B1D521D79000D4A67 /* PBXTargetDependency */,
+			);
+			name = RealCasinoTests;
+			productName = RealCasinoTests;
+			productReference = 5FCBD1891D521D79000D4A67 /* RealCasinoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FCBD16A1D521D79000D4A67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Pavel Sukalin";
+				TargetAttributes = {
+					5FCBD1711D521D79000D4A67 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					5FCBD1881D521D79000D4A67 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5FCBD1711D521D79000D4A67;
+					};
+				};
+			};
+			buildConfigurationList = 5FCBD16D1D521D79000D4A67 /* Build configuration list for PBXProject "RealCasino" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FCBD1691D521D79000D4A67;
+			productRefGroup = 5FCBD1731D521D79000D4A67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FCBD1711D521D79000D4A67 /* RealCasino */,
+				5FCBD1881D521D79000D4A67 /* RealCasinoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FCBD1701D521D79000D4A67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FCBD1831D521D79000D4A67 /* LaunchScreen.storyboard in Resources */,
+				5FCBD1801D521D79000D4A67 /* Assets.xcassets in Resources */,
+				5FCBD17B1D521D79000D4A67 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FCBD1871D521D79000D4A67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		279740A65BB84BF78AE1686F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9358BAE9041E217B88A55D5C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E6B0CAE195D3031A64214DCF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FCBD16E1D521D79000D4A67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FCBD1AF1D5237CD000D4A67 /* FacebookManager.swift in Sources */,
+				5FCBD1A61D52320D000D4A67 /* Constants.swift in Sources */,
+				5FCBD1781D521D79000D4A67 /* HomeController.swift in Sources */,
+				5FCBD1A31D52311E000D4A67 /* SignInController.swift in Sources */,
+				5FCBD1761D521D79000D4A67 /* AppDelegate.swift in Sources */,
+				5FCBD17E1D521D79000D4A67 /* RealCasino.xcdatamodeld in Sources */,
+				5FCBD1A91D5235CC000D4A67 /* SequeToRight.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FCBD1851D521D79000D4A67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FCBD18E1D521D79000D4A67 /* RealCasinoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FCBD18B1D521D79000D4A67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FCBD1711D521D79000D4A67 /* RealCasino */;
+			targetProxy = 5FCBD18A1D521D79000D4A67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5FCBD1791D521D79000D4A67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FCBD17A1D521D79000D4A67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5FCBD1811D521D79000D4A67 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FCBD1821D521D79000D4A67 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FCBD1901D521D79000D4A67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FCBD1911D521D79000D4A67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FCBD1931D521D79000D4A67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42F6B570EAD05B33114E0758 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RealCasino/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ps.RealCasino;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RealCasino/Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		5FCBD1941D521D79000D4A67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C953F622FFD173AB09043464 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RealCasino/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ps.RealCasino;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RealCasino/Bridging-Header.h";
+			};
+			name = Release;
+		};
+		5FCBD1961D521D79000D4A67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RealCasinoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ps.RealCasinoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealCasino.app/RealCasino";
+			};
+			name = Debug;
+		};
+		5FCBD1971D521D79000D4A67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RealCasinoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ps.RealCasinoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealCasino.app/RealCasino";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FCBD16D1D521D79000D4A67 /* Build configuration list for PBXProject "RealCasino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FCBD1901D521D79000D4A67 /* Debug */,
+				5FCBD1911D521D79000D4A67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FCBD1921D521D79000D4A67 /* Build configuration list for PBXNativeTarget "RealCasino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FCBD1931D521D79000D4A67 /* Debug */,
+				5FCBD1941D521D79000D4A67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FCBD1951D521D79000D4A67 /* Build configuration list for PBXNativeTarget "RealCasinoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FCBD1961D521D79000D4A67 /* Debug */,
+				5FCBD1971D521D79000D4A67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5FCBD17C1D521D79000D4A67 /* RealCasino.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5FCBD17D1D521D79000D4A67 /* RealCasino.xcdatamodel */,
+			);
+			currentVersion = 5FCBD17D1D521D79000D4A67 /* RealCasino.xcdatamodel */;
+			path = RealCasino.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5FCBD16A1D521D79000D4A67 /* Project object */;
+}

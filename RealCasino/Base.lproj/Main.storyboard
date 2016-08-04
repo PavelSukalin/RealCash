@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Sign In Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="SignInController" customModule="RealCasino" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_bg" translatesAutoresizingMaskIntoConstraints="NO" id="Kcc-HP-Pq3">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gIb-vw-3ts">
+                                <rect key="frame" x="72" y="494" width="177" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="gIb-vw-3ts" secondAttribute="height" multiplier="59:11" id="QLH-Cj-syd"/>
+                                    <constraint firstAttribute="width" constant="177" id="T1X-oJ-iLh"/>
+                                    <constraint firstAttribute="width" secondItem="gIb-vw-3ts" secondAttribute="height" multiplier="59:11" id="nfx-wb-LD9"/>
+                                    <constraint firstAttribute="height" constant="33" id="p2E-78-VOi"/>
+                                </constraints>
+                                <state key="normal" image="signin_facebook_button"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="T1X-oJ-iLh"/>
+                                        <exclude reference="nfx-wb-LD9"/>
+                                        <exclude reference="p2E-78-VOi"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="facebookAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aB6-tE-H7T"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gIb-vw-3ts" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="474" id="1et-oU-YaE"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gIb-vw-3ts" secondAttribute="bottom" constant="41" id="2fu-i8-sRH"/>
+                            <constraint firstItem="gIb-vw-3ts" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="72" id="4Es-Cj-tgO"/>
+                            <constraint firstAttribute="trailing" secondItem="gIb-vw-3ts" secondAttribute="trailing" constant="71" id="HvV-4L-XJB"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gIb-vw-3ts" secondAttribute="bottom" constant="41" id="IC1-MQ-bxt"/>
+                            <constraint firstItem="gIb-vw-3ts" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="52" id="IYT-uV-03P"/>
+                            <constraint firstItem="Kcc-HP-Pq3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="JuP-qk-ve6"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gIb-vw-3ts" secondAttribute="bottom" constant="41" id="NKo-qS-yLs"/>
+                            <constraint firstItem="gIb-vw-3ts" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="72" id="RMH-iT-xaZ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Kcc-HP-Pq3" secondAttribute="bottom" id="SrW-PY-OgZ"/>
+                            <constraint firstAttribute="trailing" secondItem="gIb-vw-3ts" secondAttribute="trailing" constant="71" id="Uef-nA-j2l"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gIb-vw-3ts" secondAttribute="trailing" constant="51" id="VGz-NZ-Pk8"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gIb-vw-3ts" secondAttribute="bottom" constant="41" id="Y9D-6f-wLj"/>
+                            <constraint firstItem="Kcc-HP-Pq3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ZLe-ad-ocl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gIb-vw-3ts" secondAttribute="trailing" constant="51" id="aNJ-46-oZm"/>
+                            <constraint firstItem="Kcc-HP-Pq3" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="c06-cg-dFx"/>
+                            <constraint firstAttribute="trailing" secondItem="gIb-vw-3ts" secondAttribute="trailing" constant="71" id="cD6-e6-K5J"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gIb-vw-3ts" secondAttribute="bottom" constant="41" id="dhG-eH-LyE"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Kcc-HP-Pq3" secondAttribute="bottom" id="fZ4-w5-43U"/>
+                            <constraint firstItem="Kcc-HP-Pq3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="gJ6-TC-3zf"/>
+                            <constraint firstAttribute="trailing" secondItem="Kcc-HP-Pq3" secondAttribute="trailing" id="iRY-eS-qBJ"/>
+                            <constraint firstAttribute="trailing" secondItem="Kcc-HP-Pq3" secondAttribute="trailing" id="jrl-Mx-Z8F"/>
+                            <constraint firstItem="Kcc-HP-Pq3" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="llY-vy-sF7"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gIb-vw-3ts" secondAttribute="bottom" constant="41" id="pkz-Um-GQI"/>
+                            <constraint firstItem="gIb-vw-3ts" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="72" id="uuX-3s-edf"/>
+                            <constraint firstItem="gIb-vw-3ts" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="52" id="whL-5E-dVb"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="JuP-qk-ve6"/>
+                                <exclude reference="gJ6-TC-3zf"/>
+                                <exclude reference="jrl-Mx-Z8F"/>
+                                <exclude reference="llY-vy-sF7"/>
+                                <exclude reference="1et-oU-YaE"/>
+                                <exclude reference="4Es-Cj-tgO"/>
+                                <exclude reference="HvV-4L-XJB"/>
+                                <exclude reference="IYT-uV-03P"/>
+                                <exclude reference="RMH-iT-xaZ"/>
+                                <exclude reference="Uef-nA-j2l"/>
+                                <exclude reference="VGz-NZ-Pk8"/>
+                                <exclude reference="aNJ-46-oZm"/>
+                                <exclude reference="whL-5E-dVb"/>
+                                <exclude reference="2fu-i8-sRH"/>
+                                <exclude reference="NKo-qS-yLs"/>
+                                <exclude reference="SrW-PY-OgZ"/>
+                                <exclude reference="Y9D-6f-wLj"/>
+                                <exclude reference="dhG-eH-LyE"/>
+                                <exclude reference="pkz-Um-GQI"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="facebookButton" destination="gIb-vw-3ts" id="6R2-KS-V7n"/>
+                        <segue destination="eKd-FX-thM" kind="show" identifier="signinToHome" id="pYC-We-UYW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="360" y="364"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="cNc-3g-ROd">
+            <objects>
+                <viewController id="4nM-in-fL2" customClass="HomeController" customModule="RealCasino" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wXS-F7-WZp"/>
+                        <viewControllerLayoutGuide type="bottom" id="Wzg-PR-psc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Gax-Vc-Jbs">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uMB-ch-12j">
+                                <rect key="frame" x="47" y="127" width="227" height="47"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="Slot"/>
+                                <connections>
+                                    <segue destination="Qgz-1a-JaM" kind="show" id="YF2-oS-PIb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DSM-XP-hmu">
+                                <rect key="frame" x="47" y="215" width="227" height="47"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="Bingo"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x2A-ci-EvY">
+                                <rect key="frame" x="47" y="304" width="227" height="47"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="Cards"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Home" id="qdm-Th-iUp"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="504-ns-T0p" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1231" y="297"/>
+        </scene>
+        <!--Slot-->
+        <scene sceneID="W0y-fG-uUE">
+            <objects>
+                <viewController id="Qgz-1a-JaM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ATk-2z-GjH"/>
+                        <viewControllerLayoutGuide type="bottom" id="fdH-c1-GKy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aEN-fe-zYY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Slot" id="SDH-1D-VSe"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="61F-rM-OCX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1666" y="144"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Wct-Wg-UBo">
+            <objects>
+                <navigationController id="eKd-FX-thM" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="E5d-ya-2sq">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="4nM-in-fL2" kind="relationship" relationship="rootViewController" id="9vB-Zc-r2e"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P40-oY-PC7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="772" y="364"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="home_bg" width="750" height="1334"/>
+        <image name="signin_facebook_button" width="472" height="88"/>
+    </resources>
+</document>
